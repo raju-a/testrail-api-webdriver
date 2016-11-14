@@ -11,20 +11,22 @@ https://code.google.com/p/json-simple/
 
    intializeClient(String url)
    
-   Eg:
-        Program api = new new Program();
-        api.intializeClient("https://<server>/testrail/")
+   
+             Program api = new new Program();
+             api.intializeClient("https://<server>/testrail/");
         
 3. Set your username and password using this function
 
    setUser(String username, String password);
    
-   Eg:
-       api.setUser("abc@gmail.com", "12345678");
+  
+            api.setUser("abc@gmail.com", "12345678");
        
 4. To add Runner to your test using this function
 
    add_run(pid, suiteid, run_name, r_description, r_assignedto_id, r_include_all);
+   
+           long runnerid= api.add_run(2, 2, "Creating runner "," Creating runner using selenium api", 1, true);
    
    
    
