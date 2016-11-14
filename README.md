@@ -30,16 +30,16 @@ https://code.google.com/p/json-simple/
    
    
    
-   Name	         Type	                 Description
+        Name	         Type	                 Description
    
-   pid           int                   project id 
+          pid            int                     project id 
    
-suite_id	       int	                 The ID of the test suite for the test run (optional if the project is operating in                                            single suite mode, required otherwise)
- run_name	       string	               The name of the test run
+         suite_id	     int	                 The ID of the test suite for the test run (optional if the project is                                                          operating in single suite mode, required otherwise)
+         run_name	     string	                 The name of the test run
    
 r_description	   string	               The description of the test run
 
-r_assignedto_id	  int	                 The ID of the user the test run should be assigned to
+r_assignedto_id	    int	                 The ID of the user the test run should be assigned to
 
 r_include_all    	bool	               True for including all test cases of the test suite and false for a custom case                                                selection (default: true)
 
