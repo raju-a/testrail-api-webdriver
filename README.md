@@ -12,7 +12,7 @@ https://code.google.com/p/json-simple/
    intializeClient(String url)
    
    
-             Program api = new new Program();
+             Program api = new Program();
              api.intializeClient("https://<server>/testrail/");
         
 3. Set your username and password using this function
