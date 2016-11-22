@@ -18,10 +18,10 @@ public class Google_search {
 	public static void main(String args[]) throws InterruptedException, MalformedURLException, IOException, APIException{
 		
 		
-		String CURL="https://testraildemobyraju.testrail.net/";
+		String CURL="";
 		api=new Program();
 		api.intializeClient(CURL);
-		api.setUser("raju.pillai@a-cti.com", "Raju@9003113557");
+		api.setUser("", "");
 	    long runnerid= api.add_run(2, 2, "Creating runner "," Creating runner using selenium api", 1, true);
 	   
 		
