@@ -1,4 +1,4 @@
-# testrail-api-webdriver
+# testrail-api-webdriver-java
 Api which is used to create runner and update the result for that runner in testrail , It provides the basic functionality to authenticate API requests, provides generic support for read and write requests.
 
 1. Environment setup
