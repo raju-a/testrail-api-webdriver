@@ -22,11 +22,11 @@ https://code.google.com/p/json-simple/
   
             api.setUser("abc@gmail.com", "12345678");
        
-4. To add Runner to your test using this function
+4. To add Runner to your test using this function , this will return Runner id 
 
    add_run(pid, suiteid, run_name, r_description, r_assignedto_id, r_include_all);
    
-           long runnerid= api.add_run(2, 2, "Creating runner "," Creating runner using selenium api", 1, true);
+           long runnerid = api.add_run(2, 2, "Creating runner "," Creating runner using selenium api", 1, true);
    
    
    
@@ -43,6 +43,22 @@ https://code.google.com/p/json-simple/
 
         r_include_all     bool	                 True for including all test cases of the test suite and false for a custom                                                    case selection (default: true)
 
+5. To add result for your testcase
 
+     void add_result_for_Case(long rid,int tid,String status,String cmt)
+       
+           api.add_result_for_Case(runnerid,4,"pass","Page loaded suceessfully");
+    
+          Name	         Type	                 Description
+   
+          rid            int                     runner id 
+   
+          tid	         int	                 Testcase id
+          
+          status	     string	                 Status of the Testcase in pass / fail
+            
+          cmt	         string	                 Any comments for the result 
+   
+   
   
    
