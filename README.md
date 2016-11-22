@@ -1,5 +1,5 @@
 # testrail-api-webdriver-java
-Api which is used to create runner and update the result for that runner in testrail , It provides the basic functionality to authenticate API requests, provides generic support for read and write requests.
+Api which is used to create runner and update the result for that runner in testrail , It provides the basic functionality to authenticate API requests.
 
 1. Environment setup
     
@@ -29,7 +29,6 @@ https://code.google.com/p/json-simple/
            long runnerid = api.add_run(2, 2, "Creating runner "," Creating runner using selenium api", 1, true);
    
    
-   
         Name	         Type	                 Description
    
           pid            int                     project id 
@@ -45,9 +44,10 @@ https://code.google.com/p/json-simple/
 
 5. To add result for your testcase
 
-     void add_result_for_Case(long rid,int tid,String status,String cmt)
+      add_result_for_Case(long rid,int tid,String status,String cmt)
        
            api.add_result_for_Case(runnerid,4,"pass","Page loaded suceessfully");
+           
     
           Name	         Type	                 Description
    
