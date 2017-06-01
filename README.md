@@ -1,7 +1,7 @@
-# testrail-api-webdriver-java
+# Testrail-api-webdriver-java
 Api which is used to create runner and update the result for that runner in testrail , It provides the basic functionality to authenticate API requests.
 
-##1. Environment setup
+#1. Environment setup
     
     Please add the contained package to your application or project (e.g. in Eclipse). The API binding also has a separate, external dependency on the JSON.simple library which can downloaded here:
 
